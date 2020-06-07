@@ -1,0 +1,47 @@
+.navbar.navbar-transparent {
+  background-color: transparent !important;
+  box-shadow: none;
+  color: #FFFFFF;
+  padding-top: 20px !important;
+}
+
+
+.navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn) {
+  color: #888888;
+}
+
+.navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn).disabled {
+  opacity: .5;
+  color: #888888;
+}
+
+.navbar.bg-white:not(.navbar-transparent) .button-bar {
+  background: #888888;
+}
+
+.navbar.bg-white:not(.navbar-transparent) .nav-item.active .nav-link:not(.btn),
+.navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):focus,
+.navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):hover,
+.navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):active {
+  background-color: rgba(222, 222, 222, 0.3);
+}
+
+.navbar.bg-white:not(.navbar-transparent) .logo-container {
+  border: 1px solid #888888;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+.bhukkad-bheidya-logo-font{
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 25px;
+}
